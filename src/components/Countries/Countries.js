@@ -18,6 +18,10 @@ const Countries = () => {
                 // likhesi
                 sadman ={country.name.common}
                 timezone = {country.timezones}
+
+                // uporer moto country er ekta ekta data Country.js a na pathiye amra
+                // direct country ta kei Country.js a patahi dite pari then oikhane theke data show kora jabe
+                country ={country}
                 
                 ></Country>)
             }
